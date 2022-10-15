@@ -1,0 +1,23 @@
+{
+    "packages": [{
+            "name": "Home",
+            "path": "/",
+            "key": 1
+        },
+        {
+            "name": "Booking",
+            "path": "/booking",
+            "key": 2
+        },
+        {
+            "name": "Packages",
+            "path": "/packages",
+            "key": 3
+        },
+        {
+            "name": "Services",
+            "path": "/services",
+            "key": 4
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "packages": [{
+            "name": "Private Charter",
+            "price": "Price on request",
+            "url": "/assets/private-charter.jpg"
+        },
+        {
+            "name": "Helicopter for wedding",
+            "price": "Price on request",
+            "url": "/assets/wedding.jpg"
+        },
+        {
+            "name": "Flower Droping",
+            "price": "Price on request",
+            "url": "/assets/flower-dropping.jpg"
+        },
+        {
+            "name": "Air Ambulance",
+            "price": "Price on request",
+            "url": "/assets/air-ambulance.jpg"
+        }
+    ]
+}

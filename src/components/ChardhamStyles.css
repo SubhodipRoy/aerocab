@@ -1,0 +1,36 @@
+.chardhamCarousel {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: unset;
+}
+
+.navTabs>div {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    margin: 5px;
+    height: auto;
+    transform-origin: center center;
+    transform: scale(1);
+    transition: transform 0.5s;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* width */
+.chardhamCarousel::-webkit-scrollbar {
+    height: 5px;
+}
+
+/* Track */
+.chardhamCarousel::-webkit-scrollbar-track {
+    box-shadow: none;
+    border-radius: 10px;
+}
+
+/* Handle */
+.chardhamCarousel::-webkit-scrollbar-thumb {
+    background: var(--chakra-colors-blue-300);
+    border-radius: 10px;
+}

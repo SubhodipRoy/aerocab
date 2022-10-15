@@ -1,0 +1,28 @@
+{
+    "packages": [{
+            "name": "kedarnath Shuttel Service",
+            "price": "70,000",
+            "url": "https://images.unsplash.com/photo-1617860931879-19d32ec9912d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=50"
+        },
+        {
+            "name": "Kedarnath Yatra Flight Ex Dehradun",
+            "price": "7,000",
+            "url": "https://images.unsplash.com/photo-1612438214708-f428a707dd4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=20"
+        },
+        {
+            "name": "Chardham Yatra Flight Ex Dehradun",
+            "price": "1,75,000",
+            "url": "https://images.unsplash.com/photo-1626621331169-5f34be280ed9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=50"
+        },
+        {
+            "name": "Badinath Yatra Flight Ex Dehradun",
+            "price": "70,000",
+            "url": "https://images.unsplash.com/photo-1601821139314-66a4d14cfc00?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=588&q=50"
+        },
+        {
+            "name": "Dodham Yatra Flight Ex Dehradun",
+            "price": "90,000",
+            "url": "https://images.unsplash.com/photo-1660024254255-95cf61bb09a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=50"
+        }
+    ]
+}

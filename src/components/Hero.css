@@ -1,0 +1,34 @@
+.overflow>*>div {
+    overflow: visible !important;
+    z-index: -1;
+}
+
+.heroImgBox {
+    position: relative;
+    height: 80vh;
+}
+
+.heroImg {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    z-index: 2;
+}
+
+@media only screen and (max-width: 720px) {
+    .overflow>*>div {
+        overflow: visible !important;
+        z-index: 2;
+        height: 50px !important;
+    }
+
+    .heroImgBox {
+        position: unset;
+        height: unset;
+    }
+
+    .heroImg {
+        position: unset;
+        bottom: unset;
+    }
+}

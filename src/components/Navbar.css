@@ -1,0 +1,27 @@
+.navTabs::-webkit-scrollbar {
+    display: none;
+}
+
+.navTabs {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: unset;
+    padding-left: 30vw;
+}
+
+.navTabs>button {
+    flex-shrink: 0;
+    margin: 5px;
+}
+
+.logoStyle {
+    height: 10vh;
+}
+
+@media only screen and (max-width: 700px) {
+    .logoStyle {
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+}
