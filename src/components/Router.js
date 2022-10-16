@@ -11,6 +11,7 @@ import BookingState from "../context/booking/BookingState";
 import Footer from "./Footer";
 import Resort from "./Resort";
 import ContactUs from "./ContactUs";
+import About from "./About";
 
 const Router = () => {
   return (
@@ -24,6 +25,7 @@ const Router = () => {
           <Route path="/services" element={<OtherServices />} />
           <Route path="/resort" element={<Resort />} />
           <Route path="/contact" element={<ContactUs />} />
+          <Route path="/about" element={<About />} />
         </Routes>
         <Footer />
       </ChakraProvider>

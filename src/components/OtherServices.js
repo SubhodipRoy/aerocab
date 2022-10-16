@@ -27,6 +27,7 @@ const OtherServices = () => {
                 price={element.price}
                 url={element.url}
                 key={element.url}
+                brand={element.brand}
               />
             );
           })}

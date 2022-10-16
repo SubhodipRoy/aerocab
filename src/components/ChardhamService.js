@@ -40,6 +40,7 @@ export default class ChardhamService extends Component {
                 price={element.price}
                 url={element.url}
                 key={element.url}
+                brand={element.brand}
               />
             );
           })}

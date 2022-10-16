@@ -1,16 +1,12 @@
 import React from "react";
 import {
   Box,
-  Center,
-  chakra,
   Container,
   Stack,
   Text,
   useColorModeValue,
-  VisuallyHidden,
 } from "@chakra-ui/react";
 import { FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
-import { ReactNode } from "react";
 
 import SocialButton from "./SocialButton";
 import { Link } from "react-router-dom";
@@ -46,9 +42,10 @@ const Footer = (props) => {
 
         <Text align={"center"}>
           © 2022 Aerocab Aviation. All rights reserved <br />
+          <Link to="/contact">Contact Us</Link>
+          <Link to="/About"> &emsp; About Us</Link> <br />
           Created With 💕 by <a href="tel:+918918117064">Subhodip Roy</a>
           <br />
-          <Link to="/contact">Contact Us</Link>
         </Text>
 
         <Stack direction={"row"} spacing={6}>

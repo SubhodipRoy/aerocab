@@ -17,7 +17,7 @@ const ChardhamItems = (props) => {
   const bookingContext = useContext(BookingContext);
   const { updateName } = bookingContext;
 
-  let { title, price, url } = props;
+  let { title, price, url, brand } = props;
   let navigate = useNavigate();
 
   const handleClick = () => {
@@ -75,7 +75,7 @@ const ChardhamItems = (props) => {
             {title}
           </Heading>
           <Text color={"gray.500"} fontSize={"sm"} textTransform={"uppercase"}>
-            Brand
+            {brand}
           </Text>
           <Stack direction={"row"} align={"center"}>
             <Text fontWeight={800} fontSize={"xl"}>

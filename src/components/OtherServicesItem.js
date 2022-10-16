@@ -13,7 +13,7 @@ import { useNavigate } from "react-router-dom";
 import BookingContext from "../context/booking/BookingContext";
 
 const OtherServicesItem = (props) => {
-  let { title, price, url } = props;
+  let { title, price, url, brand } = props;
   let navigate = useNavigate();
 
   const bookingContext = useContext(BookingContext);
@@ -74,7 +74,7 @@ const OtherServicesItem = (props) => {
             {title}
           </Heading>
           <Text color={"gray.500"} fontSize={"sm"} textTransform={"uppercase"}>
-            Brand
+            {brand}
           </Text>
           <Stack direction={"row"} align={"center"}>
             <Text fontWeight={800} fontSize={"xl"}>
