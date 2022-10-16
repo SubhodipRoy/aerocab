@@ -9,6 +9,8 @@ import ChardhamService from "./ChardhamService";
 import OtherServices from "./OtherServices";
 import BookingState from "../context/booking/BookingState";
 import Footer from "./Footer";
+import Resort from "./Resort";
+import ContactUs from "./ContactUs";
 
 const Router = () => {
   return (
@@ -20,6 +22,8 @@ const Router = () => {
           <Route path="/booking" element={<BookingForm />} />
           <Route path="/packages" element={<ChardhamService />} />
           <Route path="/services" element={<OtherServices />} />
+          <Route path="/resort" element={<Resort />} />
+          <Route path="/contact" element={<ContactUs />} />
         </Routes>
         <Footer />
       </ChakraProvider>

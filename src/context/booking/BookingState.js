@@ -8,6 +8,7 @@ const BookingState = (props) => {
     setPackageName({
       name: name,
     });
+    console.log(packageName.name);
   };
   return (
     <BookingContext.Provider value={{ updateName, packageName }}>

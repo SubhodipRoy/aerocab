@@ -57,7 +57,7 @@ const BookingForm = (props) => {
     setPName({ ...pName, [e.target.name]: e.target.value });
   };
   return (
-    <form onSubmit={sendMail} className="container-fluid mt-5" ref={form}>
+    <form onSubmit={sendMail} className="container-fluid my-5" ref={form}>
       <Container bg="blue.50" borderRadius="20" p="5">
         <Stack direction={["column", "row"]} spacing={5} p="2">
           <Input
@@ -67,7 +67,7 @@ const BookingForm = (props) => {
             borderRadius="20"
             h="60px"
             focusBorderColor={focusBorderColor}
-            value={packageName.name.title}
+            value={packageName.name.title || packageName.name}
             onChange={onChange}
             name="packName"
           />
@@ -114,7 +114,7 @@ const BookingForm = (props) => {
             width="50%"
             type="submit"
           >
-            Button
+            Submit
           </Button>
         </Center>
       </Container>

@@ -2,6 +2,7 @@ import React from "react";
 import ChardhamService from "./ChardhamService";
 import Hero from "./Hero";
 import OtherServices from "./OtherServices";
+import Resort from "./Resort";
 import WhyUs from "./WhyUs";
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
       <WhyUs />
       <ChardhamService />
       <OtherServices />
+      <Resort />
     </>
   );
 };

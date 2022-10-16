@@ -96,7 +96,7 @@ const ChardhamItems = (props) => {
             width="50%"
             onClick={handleClick}
           >
-            Button
+            Book Now
           </Button>
         </Center>
       </Box>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Highlight, Heading, Text } from "@chakra-ui/react";
+import { Box, Highlight, Heading, Text, Button } from "@chakra-ui/react";
 import {
   Animator,
   ScrollContainer,
@@ -8,6 +8,8 @@ import {
   batch,
   Fade,
 } from "react-scroll-motion";
+
+import { Link } from "react-router-dom";
 
 import "./Hero.css";
 const Hero = () => {
@@ -31,10 +33,23 @@ const Hero = () => {
               </Highlight>
             </Heading>
             <Text fontSize="md">
+              <br />
               Aerocab Aviation Pvt. Ltd. has a team of young professional in
               both engineering and operations team who understand client’s
               requirement at best
             </Text>
+            <Box as={Link} to={"/booking"} key={"cta-btn"}>
+              <Button
+                colorScheme="blue"
+                variant="ghost"
+                bg="blue.100"
+                borderRadius="50px"
+                height="50px"
+                my={4}
+              >
+                Book Now
+              </Button>
+            </Box>
             {/* </Animator>
               </ScrollPage>
             </ScrollContainer> */}

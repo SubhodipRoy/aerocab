@@ -18,6 +18,10 @@
             "name": "Services",
             "path": "/services",
             "key": 4
+        }, {
+            "name": "Resort",
+            "path": "/resort",
+            "key": 5
         }
     ]
 }
