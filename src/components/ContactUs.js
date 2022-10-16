@@ -35,7 +35,7 @@ const ContactUs = () => {
             <AccordionPanel pb={4}>
               <b>Phone 1: </b> <a href="tel:+917248486092">+91 72484 86092</a>
               <br />
-              <b>Phone 2: </b> <a href="tel:+919105947108">+91 72484 86092</a>
+              <b>Phone 2: </b> <a href="tel:+919105947108">+91 91059 47108</a>
             </AccordionPanel>
           </AccordionItem>
         </Accordion>

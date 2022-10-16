@@ -120,8 +120,7 @@ const Resort = () => {
                 <b>MAP:</b>Double Occupancy, Breakfast, Dinner, TV, Gyser,
                 Attached Bathroom, Garden
                 <br />
-                <b>MAP:</b>Double Occupancy, TV, Gyser, Attached Bathroom,
-                Garden
+                <b>CP:</b>Double Occupancy, TV, Gyser, Attached Bathroom, Garden
               </AccordionPanel>
             </AccordionItem>
           </Accordion>
