@@ -6,12 +6,12 @@ const About = () => {
   const details = data.details;
   return details.map((elem) => {
     return (
-      <Container>
-        <Box flex="1" textAlign="left">
-          <Heading as="h2" size="2Xl" my={"1"}>
+      <Container my={"8"}>
+        <Box flex="1" textAlign="left" my={"6"}>
+          <Heading as="h2" fontSize={"lg"} my={"1"}>
             {elem.heading}
           </Heading>
-          <Text fontSize={"lg"}>{elem.text}</Text>
+          <Text fontSize={"md"}>{elem.text}</Text>
         </Box>
       </Container>
     );
