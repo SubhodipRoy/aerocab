@@ -8,7 +8,7 @@ const About = () => {
     return (
       <Container>
         <Box flex="1" textAlign="left">
-          <Heading as="h2" size="2Xl">
+          <Heading as="h2" size="2Xl" my={"1"}>
             {elem.heading}
           </Heading>
           <Text fontSize={"lg"}>{elem.text}</Text>
