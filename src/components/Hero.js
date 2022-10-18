@@ -28,14 +28,14 @@ const Hero = () => {
                   bg: "blue.100",
                 }}
               >
-                Most Affordable And Comfortable Helecopter Service for Char Dham
+                Most Affordable And Comfortable Helicopter Service for Char Dham
                 Yatra
               </Highlight>
             </Heading>
             <Text fontSize="md">
               <br />
               Aerocab Aviation Pvt. Ltd. has a team of young professional in
-              both engineering and operations team who understand client’s
+              both engineering and operations team who understand client's
               requirement at best
             </Text>
             <Box as={Link} to={"/booking"} key={"cta-btn"}>
