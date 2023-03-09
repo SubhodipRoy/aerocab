@@ -49,7 +49,7 @@ const WhyUs = () => {
 
         <div className="col-md-8 AccordionButton">
           <Heading as="h2" size="2xl" noOfLines={2} p={3}>
-            Why Aerocab
+            Why Amard
           </Heading>
           <Accordion allowMultiple>
             <AccordionItem bg="blue.100" borderRadius="50" p={4} m={2}>

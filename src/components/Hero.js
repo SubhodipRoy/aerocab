@@ -34,8 +34,8 @@ const Hero = () => {
             </Heading>
             <Text fontSize="md">
               <br />
-              Aerocab Aviation Pvt. Ltd. has a team of young professional in
-              both engineering and operations team who understand client's
+              Amard Aviation Pvt. Ltd. has a team of young professional in both
+              engineering and operations team who understand client's
               requirement at best
             </Text>
             <Box as={Link} to={"/booking"} key={"cta-btn"}>
