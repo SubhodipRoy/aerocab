@@ -41,7 +41,7 @@ const Footer = (props) => {
         <Logo />
 
         <Text align={"center"}>
-          © 2022 Aerocab Aviation. All rights reserved <br />
+          © 2023 Aerocab Aviation. All rights reserved <br />
           <Link to="/contact">Contact Us</Link>
           <Link to="/About"> &emsp; About Us</Link> <br />
           Created With 💕 by <a href="tel:+918918117064">Subhodip Roy</a>
