@@ -1,0 +1,24 @@
+{
+    "packages": [{
+        "name": "Char Dham Yatra",
+        "price": "25,000",
+        "delPrice": "35,000",
+        "luxPrice": "55,000",
+        "brand": "10 Night 11 Days",
+        "url": "/assets/road_package/chardham.jpeg"
+    }, {
+        "name": "Do Dham Yatra",
+        "price": "16,999",
+        "delPrice": "22,999",
+        "luxPrice": "34,999",
+        "brand": "10 Night 11 Days",
+        "url": "/assets/road_package/dodham.jpeg"
+    }, {
+        "name": "Ek Dham Yatra",
+        "price": "14,999",
+        "delPrice": "19,999",
+        "luxPrice": "29,999",
+        "brand": "10 Night 11 Days",
+        "url": "/assets/road_package/ekdham.jpeg"
+    }]
+}
