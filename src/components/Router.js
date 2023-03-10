@@ -12,21 +12,28 @@ import Footer from "./Footer";
 import Resort from "./Resort";
 import ContactUs from "./ContactUs";
 import About from "./About";
+import { UnderConstruction } from "./UnderConstruction";
 
+const fl = 1;
 const Router = () => {
   return (
     <BookingState>
       <ChakraProvider>
         <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/booking" element={<BookingForm />} />
-          <Route path="/packages" element={<ChardhamService />} />
-          <Route path="/services" element={<OtherServices />} />
-          <Route path="/resort" element={<Resort />} />
-          <Route path="/contact" element={<ContactUs />} />
-          <Route path="/about" element={<About />} />
-        </Routes>
+        {fl ? (
+          <UnderConstruction />
+        ) : (
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/booking" element={<BookingForm />} />
+            <Route path="/packages" element={<ChardhamService />} />
+            <Route path="/services" element={<OtherServices />} />
+            <Route path="/resort" element={<Resort />} />
+            <Route path="/contact" element={<ContactUs />} />
+            <Route path="/about" element={<About />} />
+          </Routes>
+        )}
+
         <Footer />
       </ChakraProvider>
     </BookingState>
