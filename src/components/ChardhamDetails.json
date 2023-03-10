@@ -1,11 +1,5 @@
 {
     "packages": [{
-            "name": "Kedarnath Yatra Flight",
-            "price": "70,000",
-            "brand": "Ex Dehradun",
-            "url": "https://images.unsplash.com/photo-1612438214708-f428a707dd4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=20"
-        },
-        {
             "name": "Chardham Yatra Flight",
             "price": "1,90,000",
             "brand": "Ex Dehradun",
